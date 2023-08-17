@@ -1,11 +1,6 @@
 package web.model;
 
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Car {
-
     private String model;
     private String series;
     private int year;
@@ -18,12 +13,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "model='" + model + '\'' +
-                ", series='" + series + '\'' +
-                ", year=" + year +
-                '}';
+        return "Car{" + '\n' + "model='" + model + '\'' + ", series='" + series + '\'' + ", year=" + year + "'}";
     }
-
-
 }
